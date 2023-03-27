@@ -3,7 +3,7 @@
 <html>
  
 <head>
-    <title>Testing my knowledge on web Development Template</title>
+    <title>My Sample web Development Template</title>
  
     <style>
         * {
@@ -21,8 +21,8 @@
         }
  
         .background {
-            background: blue;
-            background-blend-mode: darken;
+            background: grey;
+            background-blend-mode: lighten;
             background-size: cover;
         }
  
@@ -65,17 +65,17 @@
         #search {
             padding: 5px;
             font-size: 17px;
-            border: 2px solid darkred;
+            border: 2px solid white;
             border-radius: 9px;
         }
  
         .firstsection {
-            background-color: red;
+            background-color: blue;
             height: 400px;
         }
  
         .secondsection {
-            background-color: navy;
+            background-color: royalblue;
             height: 400px;
         }
  
@@ -83,7 +83,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: brown;
+            color: black;
             max-width: 80%;
             margin: auto;
             height: 80%;
@@ -102,7 +102,7 @@
  
         .secondhalf img {
             width: 70%;
-            border: 4px solid blueviolet;
+            border: 4px solid black;
             border-radius: 150px;
             display: block;
             margin: auto;
@@ -176,7 +176,7 @@
     <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
-                <img src="logo.png">
+                <img src="wallpaperflare.com_wallpaper (4).jpg">
             </div>
             <li><a href="#web">Web Technology</a></li>
             <li><a href="#program">C Programming</a></li>
@@ -185,14 +185,14 @@
 
         <div class="rightNav">
             <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
+            <button class="btn btn-sm" onclick="greet()">Greet Me;</button>
         </div>
     </nav>
 
-    <section class="firstsection"
-        <div class="box-main>"
-            <div class="firsthalf">
-                <h1 class="text-big" id="web">Web Technology</h1>
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-medium" id="web">Web Technology</h1>
                 <p class="text-small">
                     HTML stands for HyperText Markup Language.
                     It is used to design web pages using a markup
@@ -212,11 +212,11 @@
 
     <section class="secondsection">
         <div class="box-main">
-            
-            <h1 class="text-big" id="program">
-                 C Programming
-                </h1>
-            <p class="text-medium">
+            <div class="firstHalf">
+                <h1 class="text-medium" id="program">
+                    C Programming
+              </h1>
+            <p class="text-small">
                 C is a procedural programming language. It
                 was initially developed by Dennis Ritchie
                 as a system programming language to write
@@ -234,8 +234,8 @@
 
 <section class="section">
     <div class="paras">
-        <h1 class="sectionTag text-small">
-            Java
+        <h1 class="sectionTag text-medium">Java</h1>
+
         <p class="sectionSubTag text-small">
             Java has been one of the most popular
             programming language for many years.
@@ -251,17 +251,19 @@
         </p>
 
     </div>
-    <div class="thumbnail>"
-        <img src="img.png" alt="laptop image">
-    </div>
-</section>section>
 
-<footer class="background"
+    <div class="thumbnail">
+        <img src="—Pngtree—black and white lion line_6357955.png" alt="laptop">
+    </div>
+</section>
+
+<footer class="background">
         <p class="text-footer">
-        Copyright -All rights are reserved
+        Copyright  ©-All rights are reserved
         </p>
 
     </footer>
+<script src="./script.js"></script>
 </body>
 
 </html>
