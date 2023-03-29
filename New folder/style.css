@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: blue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+/* Style the header */
+.header {
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+}
