@@ -35,3 +35,4 @@ let c= 4
 if (a<b && c<b );{
 console.log(b);
 }
+else if (b>c && b<a)
