@@ -29,10 +29,10 @@
 //    console.log ("we cannot have negative year!")
 // }
 
-let a= 15
-let b= 50
-let c= 4
-if (a<b && c<b );{
-console.log(b);
-}
-else if (b>c && b<a)
+//let a= 15;
+//let b= 50;
+//let c= 4;
+//if (a<b && a>c );{
+//console.log(a);
+//} else if (b>c && b<a)
+
