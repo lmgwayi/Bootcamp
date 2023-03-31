@@ -25,12 +25,34 @@
 //console.log(number.length)
 //}
 
-let numbers= [2,9,11,7,5,3,4,8,15,17,21,19,24]
+//Find even numbers
 
-for(let i =0; i < numbers.length; i=i+1){
+//let numbers= [2,9,11,7,5,3,4,8,15,17,21,19,24]
 
-console.log(i);
-if (numbers[i]%2==0){
-   console.log("it is even numbers"+numbers[i])
-}
+//for(let i =0; i  <numbers.length; i=i+1){
+
+//console.log(i);
+//if (numbers[i]%2==0){
+//   console.log("even numbers"+numbers[i])
+//}
+//}
+
+//Finding initials
+
+//let fname= ["Luxolo","Ncesh", "Kgotso", "Vuyo"]
+
+//for(let k= 0; k < fname.length;k++){
+
+// if(fname[0])
+
+//   console.log(fname[k][0]);
+//}
+
+let fullname= ["Luxolo"]
+
+for(let k= 0; k < fullname.length;k++){
+
+   if(fullname[0])
+
+   console.log(fullname[k][0]);
 }
