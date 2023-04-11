@@ -43,5 +43,5 @@
       for (i = 0; i < images.length; i++) {
         images[i].style.display = "none";  
       }
-      x[slideIndex-1].style.display = "block";  
+      images[slideIndex-1].style.display = "block";  
     }
