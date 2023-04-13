@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="temp.js">
+    <title>Temperature-Converter</Temperature-Converter></title>
 </head>
 <body>
-    <h1>
-        Temperature Calculation
-    </h1>
+    <div class="container">
+        <div class="temperature-converter">
+            <h1 class="title">Temperature-Converter</h1>
+            <div class="result">
+                <span class="result-heading">Result (Celsius)</span>
+                <h2 class="celsius-value" id="celsius"></h2>
+            </div>
+            <div class="degree-type">
+                <label for="degree">degree</label>
+                <input type="number" name="degree" id="degree"/>
+            </div>
+            <div class="temp-field">
+                <label for="temp-type">Type</label>
+                <select name="temperatures" id="temp-type" autocomplete="on">
+                    <option id="fahrenheit" value="fahrenheit">fahrenheit</option>
+                    <option id="celsius" value="celsius">celsius</option>
+                </select>
+            </div>
+            <button id="convert-btn">convert</button>
     
     <input type="text" placeholder="enterTemp" name="convert" id="entercelsius">
      <button class="btn btn-sm" onclick="convert()">CalculateTemp</button>
