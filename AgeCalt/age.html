@@ -10,6 +10,18 @@
         <div class="container">
           <div class="age-calculator">
             <h1 class="heading"><i class="fas fa-calculator"></i> Age Calculator</h1>
+
+            <form>
+              <input type="text" placeholder="Add new task...">
+            </form>
+            <ul>
+              <li>
+                <input type="checkbox" onclick="taskComplete()" class="check">
+                <input type="text" value="Exercise" class="task" onfocus="getCurrentTask()"onblur="editTask()">
+
+                <i class="fa fa-calculator" onclick="removTask(this)"></i>
+              </li>
+            </ul>
             <div class="controls">
               <input type="date" id="date">
               <button id="calculate">Calculate</button>

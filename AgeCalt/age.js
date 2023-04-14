@@ -44,7 +44,7 @@ function calculateAge() {
   result.innerHTML = `<p class="birthdate">You were born on ${birthDate.toDateString()}.</p>`;
   result.innerHTML += `<p class="age">You are ${years} years, ${months} months and ${days} days old.</p>`;
   if (months == 0 && days == 0) {
-    result.innerHTML += `<p class="wishing">Happy Birthday!🎂🎈🎈</p>`;
+    result.innerHTML += `<p class="wishing">Happy Cake Day!🍾🎉🕺🥂💃</p>`;
   }
 }
 calculate.addEventListener('click', calculateAge);

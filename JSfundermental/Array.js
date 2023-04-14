@@ -12,24 +12,24 @@
 
 //Task
 
-//let numbers= [1,2,3,4,5,6,7,8,9,10,11,12]
-//let even = Array ()
-//let odd = Array ()
-//for(k = 0; k < numbers.length; k++ ){
-   // if (numbers[k] % 2 == 0){
-   //     even.push(numbers[k]);
-   // }
-   // else{
-   //     odd.push(numbers[k]);
-//    }
-//}
-//console.log(even)
-//console.log(odd)
+let numbers= [1,2,3,4,5,6,7,8,9,10,11,12]
+let even = Array ()
+let odd = Array ()
+for(k = 0; k < numbers.length; k++ ){
+    if (numbers[k] % 2 == 0){
+        even.push(numbers[k]);
+    }
+    else{
+        odd.push(numbers[k]);
+   }
+}
+console.log(even)
+console.log(odd)
 
 
           //Task 2 Sorting numbers
 
-//let numbers= [-3,-100,10,4,6,7,20,1]
+//let numbers = [-3,-100,10,4,6,7,20,1]
 //numbers.sort(function(a, b) {return a-b});
 //let minNumber= numbers[0]
 //let maxNumber= numbers
@@ -99,10 +99,10 @@
 //console.log (emailGen("Jon.Doe" ))
 
                    //Example
-let num1= [1,3,5,7]
-let num2= [0,2,4,6]
-let num3= [...num1, ...num2]
-let num4= num1.concat(num2)
+//let num1= [1,3,5,7]
+//let num2= [0,2,4,6]
+//let num3= [...num1, ...num2]
+//let num4= num1.concat(num2)
 
-console.log("This is num3", num3)
-console.log("This is num4", num4)
+//console.log("This is num3", num3)
+//console.log("This is num4", num4)
