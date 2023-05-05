@@ -1,0 +1,193 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+body {
+	background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(212, 247, 14);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(13, 218, 229, 0.8);
+}
+
+.text {
+  color: #bb2424;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #31a9e0;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #409466;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(90, 65, 92);
+}
+
+::placeholder {
+  color: #cac7ff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-color);
+  font-family: "Roboto Flex", sans-serif;
+}
+
+
+
+/*footer*/
+footer{
+  padding:70px 15px;
+  background-color: #0c0c17;
+}
+
+footer .logo{
+  flex:0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color:#8c2d7b;
+  font-weight: 900;
+}
+
+ .fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #06b6f0;
+  color: white;
+}
+
+.fa-facebook {
+  background: #012b41;
+  color: white;
+}
+
+.fa-instagram {
+  background: #522052;
+  color: white;
+}
+
+.fa-pinterest {
+  background: red;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-decoration: none;
+  margin: 5px 80px;
+}
+
+
+/*copyright*/
+.copyright{
+  background-color: #0c0c17;
+  border-top:1px solid #1d1d27;
+  padding:15px;
+}
+.copyright p{
+  color:#7a35b3;
+  margin:0;
+  text-align: center;
+  font-weight: 400;
+  font-size:15px;
+}
+
+.ham-burger .fa{
+  font-size:20px;
+  height:30px;
+  width:35px;
+  background-color: #522052;
+  color:#660066;
+  border-radius:3px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  border:1px solid #eeeeee;
+}
